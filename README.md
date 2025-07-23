@@ -1,3 +1,7 @@
+## Screenshots
+
+![Tiation Portfolio Screenshot](../screenshot-tiation-portfolio.jpeg)
+
 # Tiation Portfolio - Enterprise Web Solutions
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://tiation-portfolio.github.io)
