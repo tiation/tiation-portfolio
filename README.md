@@ -205,18 +205,28 @@ python3 -m http.server 8080
 ### **Local Development Setup**
 ```bash
 # Clone repository
-git clone https://github.com/your-username/tiation-portfolio.git
+git clone https://github.com/tiation/tiation-portfolio.git
 
 # Navigate to project
 cd tiation-portfolio
 
-# Start local server (multiple options)
+# Jekyll Development Server (Recommended)
+jekyll serve --port 4000 --host 127.0.0.1
+# Site will be available at: http://127.0.0.1:4000/tiation-portfolio/
+
+# Alternative: Simple HTTP servers
 python3 -m http.server 8080
 # or
 npx serve .
 # or
 php -S localhost:8080
 ```
+
+### **Jekyll Configuration**
+- **Local URL**: `http://127.0.0.1:4000/tiation-portfolio/`
+- **Production URL**: `https://tiation.github.io/tiation-portfolio/`
+- **Auto-regeneration**: Enabled for live reloading during development
+- **Build time**: ~0.24 seconds (optimized for fast development)
 
 ### **File Structure**
 - **Static Files** - No build process required
